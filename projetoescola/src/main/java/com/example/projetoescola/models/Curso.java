@@ -14,12 +14,12 @@ public class Curso {
     @Column(nullable = false, length = 200)
     private String nome;
     @Column(nullable = false)
-    private Integer cargaHorario;
+    private Integer cargaHoraria;
 
     public Curso(Long id, String nome, Integer cargaHorario) {
         this.id = id;
         this.nome = nome;
-        this.cargaHorario = cargaHorario;
+        this.cargaHoraria = cargaHorario;
     }
     public Curso() {
     }
@@ -35,10 +35,10 @@ public class Curso {
     public void setNome(String nome) {
         this.nome = nome;
     }
-    public Integer getCargaHorario() {
-        return cargaHorario;
+    public Integer getCargaHoraria() {
+        return cargaHoraria;
     }
-    public void setCargaHorario(Integer cargaHorario) {
-        this.cargaHorario = cargaHorario;
+    public void setCargaHoraria(Integer cargaHorario) {
+        this.cargaHoraria = cargaHorario;
     }
 }
